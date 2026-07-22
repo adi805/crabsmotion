@@ -24,7 +24,7 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
           opacity: ease(Math.min(1, lf / 12)),
         }}
       >
-        BY THE NUMBERS
+        EN CHIFFRES
       </div>
       <div style={{ display: "flex", gap: 12, transform: "scale(0.9)" }}>
         {STATS.map((s, i) => {
