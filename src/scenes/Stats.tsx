@@ -26,7 +26,7 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
       >
         BY THE NUMBERS
       </div>
-      <div style={{ display: "flex", gap: 20 }}>
+      <div style={{ display: "flex", gap: 12, transform: "scale(0.9)" }}>
         {STATS.map((s, i) => {
           const delay = 6 + i * 7;
           const inP = ease(Math.max(0, Math.min(1, (lf - delay) / 14)));
@@ -39,7 +39,7 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
                 textAlign: "center",
                 transform: `translateY(${(1 - inP) * 46}px) scale(${inP * (1 + pump * 0.04)})`,
                 opacity: inP,
-                minWidth: 210,
+                minWidth: 185,
                 padding: "30px 8px",
                 borderTop: `3px solid ${s.accent}`,
               }}
