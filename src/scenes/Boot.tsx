@@ -7,7 +7,7 @@ const LINES = [
   { t: 3, text: "$ opencrabs --init", color: C.green },
   { t: 15, text: "> spawning agent core", color: C.dim },
   { t: 26, text: "> routing 500+ models", color: C.dim },
-  { t: 37, text: "> tools: 20+ online", color: C.dim },
+  { t: 37, text: "> tools: 75+ · 16 skills online", color: C.dim },
   { t: 48, text: "> status: READY", color: C.coral },
 ];
 
