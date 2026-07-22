@@ -29,7 +29,7 @@ export const FPS = 30;
 export const BPM = 120;
 export const BEAT_FRAMES = 15; // 0.5s
 export const BAR_FRAMES = 60; // 2.0s
-export const DURATION_FRAMES = 900; // 30s
+export const DURATION_FRAMES = 1080; // 36s
 export const WIDTH = 1280;
 export const HEIGHT = 720;
 
@@ -39,16 +39,20 @@ export const CAPABILITIES: Capability[] = [
   { word: "WRITES CODE", sub: "prompt → pull request", accent: C.coral },
   { word: "SHIPS FEATURES", sub: "atomic commits · clean history", accent: C.cyan },
   { word: "RUNS INFRA", sub: "servers · cron · deploys", accent: C.amber },
-  { word: "BROWSES THE WEB", sub: "headless chrome · real clicks", accent: C.violet },
-  { word: "MULTI-AGENT", sub: "spawn a team · delegate", accent: C.green },
-  { word: "SELF-IMPROVING", sub: "learns from every session", accent: C.coral },
+  { word: "BROWSES THE WEB", sub: "headless chrome · deep research · scraping", accent: C.violet },
+  { word: "VOICE", sub: "hear · speak · offline STT/TTS", accent: C.green },
+  { word: "5 CHANNELS", sub: "telegram · discord · slack · whatsapp · trello", accent: C.coral },
+  { word: "GENERATES MEDIA", sub: "images · documents · video analysis", accent: C.cyan },
+  { word: "MULTI-AGENT", sub: "spawn a team · delegate", accent: C.amber },
+  { word: "SELF-IMPROVING", sub: "learns from every session", accent: C.green },
 ];
 
 export type Stat = { to: number; suffix: string; label: string; accent: string };
 
 export const STATS: Stat[] = [
   { to: 500, suffix: "+", label: "MODELS ROUTED", accent: C.coral },
-  { to: 20, suffix: "+", label: "BUILT-IN TOOLS", accent: C.cyan },
+  { to: 75, suffix: "+", label: "BUILT-IN TOOLS", accent: C.cyan },
+  { to: 16, suffix: "", label: "SKILLS", accent: C.violet },
   { to: 24, suffix: "/7", label: "ALWAYS ON", accent: C.amber },
   { to: 100, suffix: "%", label: "SELF-IMPROVING", accent: C.green },
 ];

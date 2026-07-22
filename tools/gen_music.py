@@ -15,7 +15,7 @@ SR = 44100
 BPM = 120.0
 BEAT = 60.0 / BPM          # 0.5s
 BAR = BEAT * 4             # 2.0s
-DURATION = 30.0
+DURATION = 36.0
 N = int(SR * DURATION)     # total samples
 
 random.seed(1337)

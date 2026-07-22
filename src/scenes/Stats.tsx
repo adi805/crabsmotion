@@ -26,9 +26,9 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
       >
         BY THE NUMBERS
       </div>
-      <div style={{ display: "flex", gap: 30 }}>
+      <div style={{ display: "flex", gap: 20 }}>
         {STATS.map((s, i) => {
-          const delay = 6 + i * 8;
+          const delay = 6 + i * 7;
           const inP = ease(Math.max(0, Math.min(1, (lf - delay) / 14)));
           const countP = ease(Math.max(0, Math.min(1, (lf - delay) / 45)));
           const val = Math.round(s.to * countP);
@@ -39,18 +39,18 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
                 textAlign: "center",
                 transform: `translateY(${(1 - inP) * 46}px) scale(${inP * (1 + pump * 0.04)})`,
                 opacity: inP,
-                minWidth: 250,
-                padding: "30px 10px",
+                minWidth: 210,
+                padding: "30px 8px",
                 borderTop: `3px solid ${s.accent}`,
               }}
             >
               <div
                 style={{
                   fontFamily: FONT,
-                  fontSize: 116,
+                  fontSize: 100,
                   fontWeight: 700,
                   color: s.accent,
-                  letterSpacing: -5,
+                  letterSpacing: -4,
                   lineHeight: 1,
                 }}
               >
@@ -60,7 +60,7 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
               <div
                 style={{
                   fontFamily: FONT_MONO,
-                  fontSize: 23,
+                  fontSize: 21,
                   color: C.dim,
                   marginTop: 18,
                   letterSpacing: 2,

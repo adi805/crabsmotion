@@ -15,8 +15,8 @@ const T = {
   logo: 60,
   tagline: 120,
   caps: 180,
-  stats: 540,
-  outro: 720,
+  stats: 720,
+  outro: 900,
 };
 
 const accentFor = (frame: number) => {
@@ -44,7 +44,7 @@ export const CrabMotion: React.FC = () => {
       <Sequence from={T.tagline} durationInFrames={60}>
         <Tagline frame={frame} start={T.tagline} />
       </Sequence>
-      <Sequence from={T.caps} durationInFrames={360}>
+      <Sequence from={T.caps} durationInFrames={540}>
         <Capabilities frame={frame} start={T.caps} />
       </Sequence>
       <Sequence from={T.stats} durationInFrames={180}>
