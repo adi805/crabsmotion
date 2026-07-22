@@ -32,7 +32,7 @@ export const Tagline: React.FC<{ frame: number; start: number }> = ({
             lineHeight: 1,
           }}
         >
-          THE AI THAT
+          A IA QUE
         </div>
         <div
           style={{
@@ -45,7 +45,7 @@ export const Tagline: React.FC<{ frame: number; start: number }> = ({
             marginTop: 2,
           }}
         >
-          SHIPS.
+          ENTREGA.
         </div>
       </div>
       <div
@@ -58,7 +58,7 @@ export const Tagline: React.FC<{ frame: number; start: number }> = ({
           opacity: ease(Math.max(0, (lf - 14) / 12)),
         }}
       >
-        an orchestration agent
+        um agente de orquestração
       </div>
     </AbsoluteFill>
   );
