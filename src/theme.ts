@@ -36,23 +36,23 @@ export const HEIGHT = 720;
 export type Capability = { word: string; sub: string; accent: string };
 
 export const CAPABILITIES: Capability[] = [
-  { word: "WRITES CODE", sub: "prompt → pull request", accent: C.coral },
-  { word: "SHIPS FEATURES", sub: "atomic commits · clean history", accent: C.cyan },
-  { word: "RUNS INFRA", sub: "servers · cron · deploys", accent: C.amber },
-  { word: "BROWSES THE WEB", sub: "headless chrome · deep research · scraping", accent: C.violet },
-  { word: "VOICE", sub: "hear · speak · offline STT/TTS", accent: C.green },
-  { word: "5 CHANNELS", sub: "telegram · discord · slack · whatsapp · trello", accent: C.coral },
-  { word: "GENERATES MEDIA", sub: "images · documents · video analysis", accent: C.cyan },
-  { word: "MULTI-AGENT", sub: "spawn a team · delegate", accent: C.amber },
-  { word: "SELF-IMPROVING", sub: "learns from every session", accent: C.green },
+  { word: "MENULIS KODE", sub: "prompt → pull request", accent: C.coral },
+  { word: "MERILIS FITUR", sub: "commit atomik · riwayat bersih", accent: C.cyan },
+  { word: "MENJALANKAN INFRA", sub: "server · cron · deploy", accent: C.amber },
+  { word: "MENJELAJAHI WEB", sub: "headless chrome · riset mendalam · scraping", accent: C.violet },
+  { word: "SUARA", sub: "mendengar · berbicara · STT/TTS offline", accent: C.green },
+  { word: "5 KANAL", sub: "telegram · discord · slack · whatsapp · trello", accent: C.coral },
+  { word: "MEMBUAT MEDIA", sub: "gambar · dokumen · analisis video", accent: C.cyan },
+  { word: "MULTI-AGEN", sub: "membentuk tim · mendelegasikan", accent: C.amber },
+  { word: "MEMPERBAIKI DIRI", sub: "belajar dari setiap sesi", accent: C.green },
 ];
 
 export type Stat = { to: number; suffix: string; label: string; accent: string };
 
 export const STATS: Stat[] = [
-  { to: 500, suffix: "+", label: "MODELS ROUTED", accent: C.coral },
-  { to: 75, suffix: "+", label: "BUILT-IN TOOLS", accent: C.cyan },
-  { to: 16, suffix: "", label: "SKILLS", accent: C.violet },
-  { to: 24, suffix: "/7", label: "ALWAYS ON", accent: C.amber },
-  { to: 100, suffix: "%", label: "SELF-IMPROVING", accent: C.green },
+  { to: 500, suffix: "+", label: "MODEL DIRUTEKAN", accent: C.coral },
+  { to: 75, suffix: "+", label: "ALAT BAWAAN", accent: C.cyan },
+  { to: 16, suffix: "", label: "SKILL", accent: C.violet },
+  { to: 24, suffix: "/7", label: "SELALU AKTIF", accent: C.amber },
+  { to: 100, suffix: "%", label: "PERBAIKAN DIRI", accent: C.green },
 ];

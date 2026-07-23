@@ -26,7 +26,7 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
           opacity: ease(Math.min(1, lf / 12)),
         }}
       >
-        BY THE NUMBERS
+        DALAM ANGKA
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
         {rows.map((row, ri) => (

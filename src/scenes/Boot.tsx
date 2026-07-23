@@ -5,10 +5,10 @@ import { Cursor } from "../components/Cursor";
 
 const LINES = [
   { t: 3, text: "$ opencrabs --init", color: C.green },
-  { t: 15, text: "> spawning agent core", color: C.dim },
-  { t: 26, text: "> routing 500+ models", color: C.dim },
-  { t: 37, text: "> tools: 75+ · 16 skills online", color: C.dim },
-  { t: 48, text: "> status: READY", color: C.coral },
+  { t: 15, text: "> memulai inti agen", color: C.dim },
+  { t: 26, text: "> merutekan 500+ model", color: C.dim },
+  { t: 37, text: "> alat: 75+ · 16 skill online", color: C.dim },
+  { t: 48, text: "> status: SIAP", color: C.coral },
 ];
 
 /** Terminal cold-open: a boot sequence types in over the intro riser. */
@@ -48,7 +48,7 @@ export const Boot: React.FC<{ frame: number; start: number }> = ({ frame, start 
           letterSpacing: 4,
         }}
       >
-        OPENCRABS · AGENT BOOT
+        OPENCRABS · BOOT AGEN
       </div>
     </AbsoluteFill>
   );
