@@ -18,12 +18,11 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
       <div
         style={{
-          position: "absolute",
-          top: 52,
           fontFamily: FONT_MONO,
           fontSize: 28,
           color: C.dim,
           letterSpacing: 4,
+          marginBottom: 52,
           opacity: ease(Math.min(1, lf / 12)),
         }}
       >
