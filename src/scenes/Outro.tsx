@@ -67,7 +67,7 @@ export const Outro: React.FC<{ frame: number; start: number }> = ({
             marginTop: 20,
           }}
         >
-          download today
+          скачай сегодня
           <Cursor frame={frame} color={C.coral} height={30} />
         </div>
       </div>

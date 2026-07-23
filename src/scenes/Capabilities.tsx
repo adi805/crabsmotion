@@ -91,7 +91,7 @@ export const Capabilities: React.FC<{ frame: number; start: number }> = ({
           letterSpacing: 3,
         }}
       >
-        CAPABILITY 0{idx + 1} / 0{CAPABILITIES.length}
+        ВОЗМОЖНОСТЬ 0{idx + 1} / 0{CAPABILITIES.length}
       </div>
     </AbsoluteFill>
   );
