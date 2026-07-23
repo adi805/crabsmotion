@@ -18,18 +18,17 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
       <div
         style={{
-          position: "absolute",
-          top: 64,
           fontFamily: FONT_MONO,
-          fontSize: 30,
+          fontSize: 28,
           color: C.dim,
           letterSpacing: 4,
+          marginBottom: 52,
           opacity: ease(Math.min(1, lf / 12)),
         }}
       >
         EN CHIFFRES
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: 48 }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
         {rows.map((row, ri) => (
           <div
             key={ri}
@@ -47,18 +46,18 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
                     textAlign: "center",
                     transform: `translateY(${(1 - inP) * 46}px) scale(${inP * (1 + pump * 0.04)})`,
                     opacity: inP,
-                    minWidth: 260,
-                    padding: "34px 16px",
+                    minWidth: 250,
+                    padding: "26px 16px",
                     borderTop: `3px solid ${s.accent}`,
                   }}
                 >
                   <div
                     style={{
                       fontFamily: FONT,
-                      fontSize: 116,
+                      fontSize: 88,
                       fontWeight: 700,
                       color: s.accent,
-                      letterSpacing: -4,
+                      letterSpacing: -3,
                       lineHeight: 1,
                     }}
                   >
@@ -68,9 +67,9 @@ export const Stats: React.FC<{ frame: number; start: number }> = ({
                   <div
                     style={{
                       fontFamily: FONT_MONO,
-                      fontSize: 25,
+                      fontSize: 22,
                       color: C.dim,
-                      marginTop: 20,
+                      marginTop: 16,
                       letterSpacing: 2,
                     }}
                   >
